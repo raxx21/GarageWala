@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/yellow"
+        android:elevation="25dp"
+        android:layout_gravity="center"
+        android:padding="10dp">
+
+
+        <TextView
+            android:id="@+id/mp_title1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="2dp"
+            android:fontFamily="@font/muli_bold"
+            android:text="Test 1"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/mp_phone1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mp_title1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="2dp"
+            android:fontFamily="@font/muli_bold"
+            android:text="9011842557"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/mp_des1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/mp_phone1"
+            android:fontFamily="@font/muli"
+            android:padding="10dp"
+            android:text="501,area1,street,landmark,\nstate,city" />
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

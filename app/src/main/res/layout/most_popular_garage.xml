@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="8dp"
+    app:cardCornerRadius="2dp"
+    android:layout_margin="10dp">
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:padding="10dp"
+        >
+        
+        <ImageView
+            android:id="@+id/mp_image"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:src="@drawable/car1"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:id="@+id/mp_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Garage 5"
+            android:layout_toRightOf="@id/mp_image"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="2dp"
+            android:fontFamily="@font/muli_bold"
+            android:textSize="20sp"/>
+
+        <RatingBar
+            android:id="@+id/mp_rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Widget.AppCompat.RatingBar.Small"
+            android:layout_below="@id/mp_title"
+            android:layout_toRightOf="@id/mp_image"
+            android:layout_marginLeft="10dp"
+            android:rating="5"/>
+
+        <TextView
+            android:id="@+id/mp_des"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lorem ipsum, or lipsum as is dummy text used in laying out p"
+            android:layout_below="@id/mp_rating"
+            android:layout_toRightOf="@id/mp_image"
+            android:padding="10dp"
+            android:fontFamily="@font/muli"/>
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

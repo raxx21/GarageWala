@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    tools:context=".InterfacePage"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/title"
+            />
+
+        <TextView
+            android:id="@+id/interface_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="170dp"
+            android:fontFamily="@font/muli_bold"
+            android:text="Who are you?"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/muli_light_italic"
+            android:text="Choice is your's. If your a Costumer \n or Garage Owner."
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            >
+
+            <Button
+                android:id="@+id/user_btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/yellow"
+                android:text="Costumer"
+                android:textColor="@color/black"
+                android:layout_marginRight="10dp"
+                app:backgroundTint="@null"
+                app:backgroundTintMode="add"
+                android:transitionName="transition_costumer"/>
+
+            <Button
+                android:id="@+id/garage_btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:background="@color/yellow"
+                android:text="Garage"
+                android:layout_marginLeft="10dp"
+                app:backgroundTint="@null"
+                app:backgroundTintMode="add" />
+
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/already_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:background="#00000000"
+            android:text="Already Using?"
+            android:onClick="callLoginScreen"
+            android:transitionName="transition_Login"
+            app:backgroundTint="@null"
+            app:backgroundTintMode="add" />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "143174827646",
+    "project_id": "garaajwala",
+    "storage_bucket": "garaajwala.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:143174827646:android:33c44314a45b725bd2e22f",
+        "android_client_info": {
+          "package_name": "com.rajesh.garaajwala"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "143174827646-gpv3pne3p9ad1lk7g7lj97rh4iadjn0n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCif6PGd4nS6QbCNQvYKJFJwU_gBnJ7EPQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "143174827646-gpv3pne3p9ad1lk7g7lj97rh4iadjn0n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
